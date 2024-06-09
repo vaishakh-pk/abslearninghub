@@ -15,6 +15,7 @@ class _homescreenState extends State<homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         title: Text("ABs Learning Hub", style :TextStyle(color: Colors.white70,
             fontSize: 20,
             fontWeight: FontWeight.w600

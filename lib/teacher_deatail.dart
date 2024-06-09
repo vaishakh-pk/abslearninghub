@@ -18,6 +18,7 @@ class _TeacherDeatailState extends State<TeacherDeatail> {
             fontWeight: FontWeight.w600
         ),),
         backgroundColor: Colors.blue,
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
