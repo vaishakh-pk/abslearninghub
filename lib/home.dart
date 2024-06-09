@@ -115,13 +115,44 @@ class _homescreenState extends State<homescreen> {
                             padding: EdgeInsets.all(10),
                             width: double.infinity,
                             decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                color: Colors.lightGreenAccent
+                            ),
+                            child: Row(
+                              children: [
+                                Text(
+                                  "8 A.M - 10 P.M",
+                                  style :TextStyle(color: Colors.black,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(width: 30,),
+                                Text(
+                                  "C A",
+                                  style :TextStyle(color: Colors.black,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w600),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 20,),
+                        GestureDetector(
+                          onTap: (){
+                            // Navigator.of(context).push(MaterialPageRoute(builder: (context) => TeacherDeatail()));
+                          },
+                          child: Container(
+                            padding: EdgeInsets.all(10),
+                            width: double.infinity,
+                            decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               color: Colors.lightGreenAccent
                             ),
                             child: Row(
                               children: [
                                 Text(
-                                  "8 A.M - 10 A.M",
+                                  "10 A.M - 1 A.M",
                                   style :TextStyle(color: Colors.black,
                                       fontSize: 18,
                                       fontWeight: FontWeight.w600),
@@ -138,32 +169,7 @@ class _homescreenState extends State<homescreen> {
                           ),
                         ),
                           SizedBox(height: 20,),
-                        Container(
-                          padding: EdgeInsets.all(10),
-                          width: double.infinity,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Colors.lightGreenAccent
-                          ),
-                          child: Row(
-                            children: [
-                              Text(
-                                "10 A.M - 1 P.M",
-                                style :TextStyle(color: Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w600),
-                              ),
-                              SizedBox(width: 30,),
-                              Text(
-                                "Computer Application",
-                                style :TextStyle(color: Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w600),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(height: 20,),
+
         
                         Container(
                           padding: EdgeInsets.all(10),
